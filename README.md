@@ -19,3 +19,5 @@ e-mail: Joshua.C.Black@cuanszhutz.edu
 
 
 ![alt text](https://github.com/blacklabUCD/ReRepMetallothionein/blob/master/images/abstractImage.png?raw=true)
+
+This repository contains the code to perform the bioinformatics analysis for the indicated study. The repository is organized in to folder that detail general data processing steps and specific figures. Instructions as to how to use the code are included in each folder as a readme file and as comments within each program. 
