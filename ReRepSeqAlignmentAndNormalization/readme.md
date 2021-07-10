@@ -8,4 +8,4 @@ Menzel J, Tatman P, Black JC. Isolation and analysis of rereplicated DNA by Rere
 
 The original code preseted in this repository was previously published here: https://github.com/blacklabUCD/ReRepSeqMethods
 
-
+![alt text](https://github.com/blacklabUCD/ReRepMetallothionein/blob/master/images/rerepseqImage.png?raw=true)
