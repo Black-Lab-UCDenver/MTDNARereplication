@@ -8,6 +8,8 @@ hg38.refGene.gtf - This file contains reference gene information from UCSC table
 
 The output from the code will produce a genomic track image.
 
+![alt text](https://github.com/Black-Lab-UCDenver/MTDNARereplication/blob/master/images/sup2F.png?raw=true)
+
 for figure S2 panel F use the following location data:
 chromosome="chr16"
 from=46400000 
