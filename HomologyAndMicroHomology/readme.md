@@ -10,24 +10,29 @@ At this point there are should be two bed files in a directory, one with the ins
 
 To get the fasta for the origins:
 GetFastaForBedOrigins.sh
+
 Split these into individual files, then put them into their own directory named after themselves:
 splitFasta.sh
 putAllFilesIntoTheirOwnSubDir.sh
+
 To get the insertion fastas use the same script for the origins, but change the file name to inseetions file:
 GetFastaForBedOrigins.sh
 
 The next step is to create the scrambled control. In doing so both the origin and the insertion and scrambled control be saved to the same directory as the corresponding origin of the same name.
+
 sequenceScrambler.r
 
 To create the randome genomic control regions, start by randomly selecting 1000 regions of a desired size using the chromosome sizes as a template. Ensure them ythese regions do not cross the boundaries of the ends of the chromsomes. Get the fasta files for each of these regions using the same script as the Origins, and then randomly assign one randome genomic region to an Origin directory.
 
 To generate the random regions, use the following script:
 random.chrom.r
+
 To get the fasta files for these regions use the same scripts as for the origins, changing the file names and directories as needed to work for the random regions.
 To get the fasta for the origins:
 GetFastaForBedOrigins.sh
+
 Split these into individual files, then put them into their own directory named after themselves:
-splitFasta.sh
+splitFasta.sh 
 putAllFilesIntoTheirOwnSubDir.sh
 
 Now, randomly save one random genomic region in each origin directory:
@@ -41,12 +46,14 @@ Apply blastn to each origin directory to look for homology or microhomology usin
  For microhomology use:
  microHomology.sh
  
- Sometimes blastn cannot read the file names due to the use of specific characters. You may need to use the followinf script to remove these characters from the file names:
+Sometimes blastn cannot read the file names due to the use of specific characters. You may need to use the followinf script to remove these characters from the file names:
  replaceFileNameCharacters.sh
  
  Column names will need to be added to each homology output, and all the outputs will need to be aggregated into a final document for analysis.
+ 
  Add column names with this script:
  addColNamesToHomOutput.r
+ 
 Assemble the final output with the following script:
 assembleFinalOutput.r
 
