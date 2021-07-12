@@ -1,0 +1,1 @@
+for d in ./*/ ; do (cd "$d" && blastn -query *.seq.fasta -outfmt '10 qseqid sseqid qstart qend sstart send qseq sseq evalue bitscore score length pident nident mismatch positive gapopen gaps ppos' -strand 'both' -task 'blastn' -db *.fa -out out.seq.csv -evalue '1'); done
