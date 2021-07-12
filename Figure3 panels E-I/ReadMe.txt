@@ -20,10 +20,10 @@ Human rerep-seq data from GEO GSE165865
 NDmergeK27redo.bw - This bigwig contains the H3K27me3 ChIP-seq coverage data for parental cells
 10DmergeK27redo.bw - This bigwig contains the H3K27me3 ChIP-seq coverage data for cadmium treated cells 
 ReplicationOrigins.bedgraph - Predicted origin data from MCF7 cells (Hansen et al., 2010) lifted over from hg19 to hg38 using UCSC liftover (https://genome.ucsc.edu/cgi-bin/hgLiftOver)
-parentalEZH2.bw - This bigwig contains the H3K27me3 ChIP-seq coverage data for parental cells
-cadREZH2.bw - This bigwig contains the H3K27me3 ChIP-seq coverage data for cadmium treated cells 
-parentalSUZ12.bw - This bigwig contains the H3K27me3 ChIP-seq coverage data for parental cells
-cadRSUZ12.bw - This bigwig contains the H3K27me3 ChIP-seq coverage data for cadmium treated cells 
+parentalEZH2.bw - This bigwig contains the EZH2 CUT&RUN coverage data for parental cells
+cadREZH2.bw - This bigwig contains the EZH2 CUT&RUN coverage data for cadmium treated cells 
+parentalSUZ12.bw - This bigwig contains the SUZ12 CUT&RUN coverage data for parental cells
+cadRSUZ12.bw - This bigwig contains the SUZ12 CUT&RUN coverage data for cadmium treated cells 
 parental.rpmMito.50bpBin.10kbsmooth.bedgraph - This bedgraph contains the Rerep-seq coverage data for parental cells 
 cad75.rpmMito.50bpBin.10kbsmooth.bedgraph - This bedgraph contains the Rrerep-seq coverage data for cadmium treated cells 
 parental.rpmMito.50bpBin.10kbsmooth.bedgraph - This bedgraph contains the Rerep-seq coverage data for parental cells 
