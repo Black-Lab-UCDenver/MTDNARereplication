@@ -4,13 +4,11 @@ The input files for this program include:
 
 Human rerep-seq data from GEO GSE165865
 
-Parental18MergedAveraged.50bp.10kbsmooth.bedgraph - This bedgraph contains the Rerep-seq coverage data for parental cells
-Cad18MergedAveraged.50bp.10kbsmooth.bedgraph - This bedgraph contains the Rrerep-seq coverage data for cadmium treated cells
 hg38.refGene.gtf - This file contains reference gene information from UCSC table browser (http://genome.ucsc.edu/cgi-bin/hgTables)
 
 The output from the code will produce a genomic track image.
 
-# for figure S2 panel F use the following location data:
+for figure S2 panel F use the following location data:
 chromosome="chr16"
 from=46400000 
 to=90300000
