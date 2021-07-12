@@ -31,3 +31,28 @@ cad75.rpmMito.50bpBin.10kbsmooth.bedgraph - This bedgraph contains the Rrerep-se
 hg38.refGene.gtf - This file contains reference gene information from UCSC table browser (http://genome.ucsc.edu/cgi-bin/hgTables)
 
 The output from the code will produce a genomic track image.
+
+# for figure 3 panel E use the following location data:
+chromosome="chr16"
+from=56450000
+to=56760000
+
+# for figure 3 panel F use the following location data:
+chromosome="chr16"
+from=56613430
+to=56621923
+
+# for figure 3 panel G use the following location data:
+chromosome="chr16"
+from=56631000 
+to=56638000 
+
+# for figure 3 panel H use the following location data:
+chromosome="chr16"
+from=56657000
+to=56665000
+
+# for figure 3 panel I use the following location data:
+chromosome="chr16"
+from=56680665
+to=56691744
