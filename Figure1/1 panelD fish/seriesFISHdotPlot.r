@@ -5,11 +5,11 @@ library(ggplot2)
 setwd("/path/to/files")
 
 #load input files
-    cadR231series <- read.csv("231cadRseries.csv", sep=",")
-    cadR231series$dose <- as.factor(cadR231series$dose)
+    FISHseries <- read.csv("1D.csv", sep=",")
+    FISHseries$dose <- as.factor(FISHseries$dose)
 
 #make dot plot of FISH data series   
-    ggplot(cadR231series, aes(dose, green_red, fill = count, color = count)) + 
+    ggplot(FISHseries, aes(dose, green_red, fill = count, color = count)) + 
 	geom_dotplot(binaxis = "y", 
 		stackdir = "center", 
 		stackratio = 0.2, 
