@@ -9,3 +9,6 @@ cad75.rpmMito.50bpBin.10kbsmooth.bedgraph - This bedgraph contains the Rrerep-se
 hg38.refGene.gtf - This file contains reference gene information from UCSC table browser (http://genome.ucsc.edu/cgi-bin/hgTables)
 
 The output from the code will produce a genomic track image.
+
+
+![alt text](https://github.com/Black-Lab-UCDenver/MTDNARereplication/blob/master/images/Figure2G.png?raw=true)
