@@ -13,7 +13,8 @@ library(grid)
 setwd("/path/to/files")
 
 #Load the input files.
-parentalChIP <- rtracklayer::import.bw("NDmergeK27redo.bw")
+#Provide path to bigwig to be displayed.
+parentalChIP <- rtracklayer::import.bw("/path/to/desired/file.bw")
 cadR10ChIP <- rtracklayer::import.bw("10DmergeK27redo.bw")
 Okasaki <- rtracklayer::import.bedGraph("RepOris_MCF7_Breast Cancer_Ext87521155_hg38.bedgraph")
 parental10rerep <- rtracklayer::import.bedGraph("Parental18MergedAveraged.bedgraph")
