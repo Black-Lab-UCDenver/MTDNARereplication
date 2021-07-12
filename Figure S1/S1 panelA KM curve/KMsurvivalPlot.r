@@ -6,7 +6,7 @@ library(survival)
 setwd("/path/to/files")
 
 #load input files
-KMdata <-read.table("brca_tcga_metabric_output.txt", sep="\t", header=TRUE)
+KMdata <-read.table("S1A.txt", sep="\t", header=TRUE)
 
 #create survival data based on overall survival, amount of time and copy number of MT locus
 survfit(Surv(time, dead) ~ copy_number, data=KMdata) -> surv1
