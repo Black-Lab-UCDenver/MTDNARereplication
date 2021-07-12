@@ -4,7 +4,4 @@ The input files for this program include:
 
 Yeast rerep-seq data from GEO GSE168566
 
-WT.bedgraph - This bedgraph contains the Rerep-seq coverage data for WT yeast 
-Cu.bedgraph - This bedgraph contains the Rrerep-seq coverage data for copper treated yeast
-
 The output from the code will produce a genomic track image.
