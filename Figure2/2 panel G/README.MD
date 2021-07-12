@@ -4,8 +4,6 @@ The input files for this program include:
 
 Human rerep-seq data from GEO GSE165865
 
-parental.rpmMito.50bpBin.10kbsmooth.bedgraph - This bedgraph contains the Rerep-seq coverage data for parental cells
-cad75.rpmMito.50bpBin.10kbsmooth.bedgraph - This bedgraph contains the Rrerep-seq coverage data for cadmium treated cells
 hg38.refGene.gtf - This file contains reference gene information from UCSC table browser (http://genome.ucsc.edu/cgi-bin/hgTables)
 
 The output from the code will produce a genomic track image.
