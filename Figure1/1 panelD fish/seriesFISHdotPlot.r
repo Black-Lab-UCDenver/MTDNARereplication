@@ -5,6 +5,7 @@ library(ggplot2)
 setwd("/path/to/files")
 
 #load input files
+#change the file name "1D.csv" to make a different fish dotplot figure
     FISHseries <- read.csv("1D.csv", sep=",")
     FISHseries$dose <- as.factor(FISHseries$dose)
 
