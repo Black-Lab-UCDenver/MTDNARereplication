@@ -10,9 +10,7 @@ Human ChIP-seq data from GEO GSE179822
 For Figure 3 panels F-I
 
 Human ChIP-seq data from GEO GSE179822 
-
 Human CUT&RUN data from GEO GSE179823
-
 Human rerep-seq data from GEO GSE165865
 
 ReplicationOrigins.bedgraph - Predicted origin data from MCF7 cells (Hansen et al., 2010) lifted over from hg19 to hg38 using UCSC liftover (https://genome.ucsc.edu/cgi-bin/hgLiftOver)
