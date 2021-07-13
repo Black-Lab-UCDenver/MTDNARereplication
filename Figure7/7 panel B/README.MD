@@ -4,5 +4,3 @@ The input files for this program include:
 
 Yeast rerep-seq data from GEO GSE168566
 
-The output from the code will produce a genomic track image.
-
