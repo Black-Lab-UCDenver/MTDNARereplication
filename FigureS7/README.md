@@ -1,3 +1,5 @@
+Panel C is a gviz graphic that shows the putative cup 1 circles. The input for this file can be found in GEO (GSE165866). Panels G and K are circos plots and are generated from gridss calls of the re-replicated samples form both human yeast. The script provided for this figure will require the correct gridss input to generate the figure, make sure to change the necessary diectories and file paths when running on a local machine. Panels K-l are genomicinteraction plots generated from a samtools output that fltered for reverse forward read pairs, consistent with circular DNA. The read pairs are turned int oo a bedpe in bedtools, and the left and right aspects of the reads are processed indivdually by the provided r script.
+
 ![alt text](https://github.com/Black-Lab-UCDenver/MTDNARereplication/blob/master/images/sup7C.png?raw=true)
 ![alt text](https://github.com/Black-Lab-UCDenver/MTDNARereplication/blob/master/images/Sup7g-j.png?raw=true)
 ![alt text](https://github.com/Black-Lab-UCDenver/MTDNARereplication/blob/master/images/sup7k-l.png?raw=true)
