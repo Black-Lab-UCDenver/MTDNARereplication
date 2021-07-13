@@ -1,1 +1,1 @@
-s7 g-h circos plots
+The sciprt used ot generate thes eplots is the same script used to make the circos plot in figure 6A. By changing the input files to the re-replicated samples, the plots as seen in this figure will be generated.
