@@ -18,7 +18,7 @@ Mail Stop 8303
 e-mail: Joshua.C.Black@cuanszhutz.edu
 
 
-![alt text](https://github.com/Black-Lab-UCDenver/MTDNARereplication/blob/master/images/Graphical%20Abstract.tif?raw=true)
+![alt text](https://github.com/Black-Lab-UCDenver/MTDNARereplication/blob/master/images/Graphical%20Abstract.png?raw=true)
 
 
     • Environmental stress induces DNA rereplication and TSSG of Metallothionein locus
